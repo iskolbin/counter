@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"outFile": "./lib/index.js",
+		"module": "amd",
+		"strict": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"declaration": true,
+		"target": "es5",
+		"moduleResolution": "node"
+	},
+	"include": ["src/**/*"],
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts"
+	]
+}
